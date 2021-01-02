@@ -1,0 +1,174 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='content-type'>
+    <title>Colleen Chan</title>
+    <meta name='description'
+      content='Colleen Chan' />
+    <link rel='stylesheet' href='style.css' />
+    <link rel='stylesheet' href='chevron.css' />
+
+    <!-- Libraries -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,500,700' rel='stylesheet' type='text/css'>
+    
+    <!-- Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-120744205-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  
+  </head>
+  <body>
+    <div id='wrapper'>
+      <div id='left_bar'>
+        <div id='picture_container'>
+          <img id='picture' src='images/colleen.jpg' />
+        </div>
+        <div id='info_box'>
+          <h1>Colleen Chan</h1>
+          colleen.chan [at] yale.edu
+          
+          <p id='contact' class='visibility-hidden'></p>
+     
+        </div>        
+      </div><!-- left_bar -->
+
+      <div id='main'>
+        
+        <div id='overview' class='section'>
+          <h2>Overview</h2>
+          <p>
+          I am a Ph.D. student in the <a href='https://statistics.yale.edu/'>Department of Statistics and Data Science</a> at Yale University, advised by <a href='https://sekhon.berkeley.edu/'>Jas Sekhon</a> and <a href='https://publichealth.yale.edu/cmips/'>Donna Spiegelman</a>.
+          I am interested in developing interpretable machine learning methods for estimating causal relationships, motivated by problems in the social sciences and public health. I completed my undergraduate work in statistics, economics, and computer science at UC San Diego in 2018. 
+	  </p>
+        </div>
+
+
+
+        <div id='publications' class='section'>
+          <h2>Publications</h2>
+
+         <div class='publication'>
+            <p class='title'>
+              Improving Estimation of Total Effects When Direct Effects Are Provided in a Meta-Analysis.
+            </p>
+            <p class='authors'>
+              Colleen E. Chan, Tonatiuh Barrientos Gutierrez, Rodrigo Zepeda, Dalia Camacho García Formentí, Rodrigo Barran, Rosana Torres Alvarez, Dalia Stern-Solodkin, Donna Spiegelman. 
+            </p>
+            <p class='venue'>
+              <i>Statistics in Medicine</i>, submitted.
+            </p>
+            <div class='links'>
+              <div class='abstract-link'>
+                <a href='#'><span class="chevron bottom"></span>Abstract</a>
+              </div>
+              <div class='pdf-link'>
+                <a href='docs/meta-mediate-paper.pdf'>Paper</a>
+              </div>
+              <div class='pdf-link'>
+                <a href='slides/jsm2020slides.pdf'>Slides</a>
+              </div>
+             </div>
+            <div class='abstract'>
+Meta-analyses summarize evidence about an association across multiple sources of information, increasing statistical power and exploring sources of heterogeneity. Yet, meta-analyses may neglect the complex causal structure behind an association, failing to distinguish between total and direct effects. When summarizing the effect of an exposure on an outcome in the presence of a mediator, it is useful that the total effect is provided. However, when the total effect is unavailable, some meta-analyses include the direct effect in place of the total effect, biasing the summary of the association towards the null. We develop methods to estimate point and interval estimates of the mediation proportion and total effect in this setting, filling an important methodological gap in existing evaluation approaches. In addition to reducing bias, by leveraging a summary mediation proportion whose estimator is developed here, our method is able to include a wider range of studies in the meta-analysis, thus providing more efficient estimates. The methodology is illustrated by a meta-analysis of sugar-sweetened beverage (SSB) consumption in relation to the incidence of type 2 diabetes, where the estimated summary total effect increased by about 1/3 when our new method was applied.             
+	</div>
+     </div>
+    <div class='publication'>
+            <p class='title'>
+              Shadow Manifold Interpolation to Decompose Chaotic Signals. 
+            </p>
+            <p class='authors'>
+              Erin S. George, Colleen E. Chan, Gal Dimand, Ryan M. Chakmak, Claudia Falcon, Robert Martin, Dan Eckhart.
+            </p>
+            <p class='venue'>
+              <i>SIAM Journal on Applied Dynamical Systems</i>, R&R. 
+            </p>
+            <div class='links'>
+              <div class='abstract-link'>
+                <a href='#'><span class="chevron bottom"></span>Abstract</a>
+              </div>
+              <div class='pdf-link'>
+                <a href='docs/smi-paper.pdf'>Paper</a>
+              </div>
+              <div class='pdf-link'>
+                <a href='slides/afrl2019slides.pdf'>Slides</a>
+              </div>
+              <div class='pdf-link'>
+                <a href='posters/jmm2019poster.pdf'>Poster</a>
+              </div>
+                </div>
+            <div class='abstract'>
+Traditional methods in signal analysis fail to meaninggflly decompose composite signals with chaotic dynamics.  Signals from chaotic systems are inherently broadband, so techniques such as the Fourier transform will be unable to separate a time series if it contains two chaotic signals of interest.  We present how an algorithm called shadow manifold interpolation (SMI), inspired by recent advances in applied dynamical systems theory, can succeed in this task. SMI takes two causally-related signals and reconstructs one from the other, producing a reconstruction that only captures the most prominent shared dynamics between the two signals.  From this we produce a decomposition of the signal into different signals representing separate dynamics.  Furthermore, we demonstrate the effectiveness of SMI at decomposing signals in a variety of test cases.  We consider three ways in which two signals may be causally related.  Through testing the algorithm on simulated composite dynamical systems, we demonstrate that SMI succeeds in separating out the constituent systems in two schemes, failing only when the two signals share multiple decoupled dynamics.  The main limitation of this algorithm is that a second causally-related reference signal is needed in order to decompose a given signal.  This reference signal must share exactly one dynamic of interest with the given signal.
+            </div>
+    </div>
+
+
+         <div class='publication'>
+            <p class='title'>
+              Food Insecurity in Medical Students: Preliminary Data.
+            </p>
+            <p class='authors'>
+		Amanda G. Zhou, Michael R. Mercier, Colleen E. Chan, June Criscione, Nancy Angofff, Laura R Ment.            
+</p>
+            <p class='venue'>
+              <i>Academic Medicine</i>, to appear.
+            </p>
+            <div class='links'>
+              <div class='abstract-link'>
+                <a href='#'><span class="chevron bottom"></span>Abstract</a>
+              </div>
+              <div class='pdf-link'>
+                <a href='docs/food-insecurity-paper.pdf'>Paper</a>
+              </div>
+             </div>
+            <div class='abstract'>
+Food insecurity, lack of money or resources that limits access to adequate food, has been well described in college students but little is known about this problem in medical students. Among undergraduates, food insecurity creates disparities in academic success and physical and mental health, including depressive symptoms. It also disproportionately affects underrepresented minority students. Because the consequences of food insecurity have important effects on student wellbeing, it is important for medical schools to investigate food insecurity in their students and use this information to develop interventions and guide school policy.
+
+Administration at Yale School of Medicine (YSM) is dedicated to improving student wellness and supporting its students’ needs and thus is interested in understanding food insecurity in its student population. In this article, the authors describe a pilot study conducted in April 2019 that assessed the prevalence and predictors of food insecurity at YSM. This pilot study demonstrated that there are higher rates of food insecurity at YSM than in the general population and that certain groups of students are more food insecure than others. In particular, male gender and being underrepresented in medicine were independent predictors of food insecurity. The authors then describe areas for further investigation as well as potential programs and other interventions for medical schools facing food insecurity. They conclude by reviewing the adverse implications of a high prevalence of food insecurity in medical students and by encouraging other medical schools to recognize and investigate this important issue.
+</div>
+     </div>
+
+    </div>
+
+         <div id='teaching' class='section'>
+          <h2>Teaching</h2>
+          <p>
+            I have enjoyed helping teach the following courses: <br> <br>
+		At Yale:
+            <ul>
+		<li> S&DS 230/530: Data Exploration and Analysis, Spring 2019, Summer 2020</li>
+		<li> S&DS 238/538: Probability and Statistics, Fall 2020</li>
+		<li> S&DS 242/542: Theory of Statistics, Spring 2020</li>
+		<li> S&DS 317/517: Machine Learning and Causal Inference, Spring 2021</li>
+		<li> S&DS 365/565: Data Mining and Machine Learning, Fall 2019</li>
+		<li> S&DS 627/628: Statistical Consulting, Fall 2019, Spring 2020, Fall 2021, Spring 2021</li>
+	    </ul>
+Average Rating: 4.44/5.0 (N=106) where 4 is "very good" and 5 is "excellent" <br> <br>
+
+		At UC San Diego:
+	    <ul>
+		<li> ECON 5: Data Analytics for the Social Sciences, Spring 2018</li>
+		<li> ECON 100A: Intermediate Microeconomics I, Fall 2016</li>
+		<li> MATH 11: Calculus-Based Probablity and Statistics, Fall 2016, Winter 2017, Spring 2017</li> 
+		<li> MATH 20E: Vector Calculus</li>
+	    </ul>
+Average Rating: 4.64/5.0 (N=88) where 4 is "recommend" and 5 is "strongly recommend"
+          </p>
+        </div>
+        
+       
+        
+      </div><!-- main -->
+    </div>
+  </body>
+</html>
+
+

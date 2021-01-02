@@ -1,0 +1,151 @@
+body {
+	font-family: 'Open Sans', 'Lucida Grande', tahoma, arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #282828;
+	line-height: 22px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Helvetica', arial, sans-serif;
+	color: #282828;
+}
+
+h1 {
+	font-size: 24px;
+	line-height: 28px;
+	margin: 20px 0px;
+}
+
+h2 {
+	margin-top: 0;
+	font-size: 20px;
+	margin: 16px 0;
+}
+
+p {
+	margin: 12px 0px;
+}
+
+
+a {
+	text-decoration: none;
+	color: #1F77B4;
+	margin: 8px 0px;
+	font-weight: 500;
+}
+/*a:visited {
+  color: #2CA02C;
+}
+*/
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border: solid 1px #CCC;
+}
+
+#wrapper {
+	margin: auto;
+	width: 860px;
+	text-align: left;
+	position: relative;
+	padding: 0 30px;
+}
+
+#left_bar {
+	position: fixed;
+	top: 65px;
+  display: inline-block;
+	width: 200px;
+	padding-left: 0px;
+	padding-right: 46px;
+  z-index: 1;
+}
+
+#main {
+	margin-left: 230px;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	width: 630px;
+  z-index: 20;
+  background-color: white;
+}
+
+.section {
+	padding-top: 25px;
+	padding-bottom: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.section + .section {
+	border-top: solid 1px #CCC;
+}
+
+#picture_container {
+	height: 225px;
+	margin-bottom: 5px;
+}
+
+#picture {
+	width: 190px;
+}
+
+#info_box {
+	font-size: 14px;
+	line-height: 18px;
+	padding-left: 2px;
+}
+
+.visibility-hidden {
+	visibility: hidden;
+}
+
+.publication p {
+  margin: 2px;
+}
+
+.publication p.title {
+  font-weight: bold;
+}
+
+.publication .abstract, .publication .bibtex {
+  position: relative;
+  display: none;
+  padding: 15px 20px;
+  margin: 8px 5px;
+  background-color: #EEE;
+  border: solid 1px #CCC;
+  font-size: 14px;
+}
+
+.publication .links div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.publication + .publication {
+  margin-top: 30px;
+}
+
+.bibtex-link, .abstract-link {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.space {
+width: 15px;
+display: inline-block;
+}
