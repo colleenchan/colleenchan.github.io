@@ -1,0 +1,28 @@
+.chevron::before {
+  border-style: solid;
+  border-width: 0.18em 0.18em 0 0;
+  /* border-color: #1F77B4; */
+  border-color: #282828;
+  content: '';
+  display: inline-block;
+  height: 0.32em;
+  left: 0.15em;
+  position: relative;
+  margin-top: 5px;
+  margin-right: 7px;
+  margin-left: 0;
+  top: 0.25em;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  vertical-align: top;
+  width: 0.32em;
+}
+
+.chevron.bottom:before {
+  top: 0px;
+  -ms-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
