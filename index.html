@@ -33,9 +33,10 @@
           <img id='picture' src='images/colleen.jpg' />
         </div>
         <div id='info_box'>
-          <h1>Colleen Chan</h1>
-          <p id='contact'>colleen.chan [at] yale.edu</p>
-        </div>        
+          <h1 style="margin-left:18px">Colleen Chan</h1>
+	<p style="margin-left:20px">&#099;&#111;&#108;&#108;&#101;&#101;&#110;&#046;&#099;&#104;&#097;&#110;@yale.edu</p>
+        <p style="margin-left:37px">24 Hillhouse Ave, <br> &nbsp; New Haven, CT</p>
+	</div>        
       </div><!-- left_bar -->
 
       <div id='main'>
@@ -43,8 +44,10 @@
         <div id='overview' class='section'>
           <h2>Overview</h2>
           <p>
-          I am a Ph.D. student in the <a href='https://statistics.yale.edu/'>Department of Statistics and Data Science</a> at Yale University, advised by <a href='https://sekhon.berkeley.edu/'>Jas Sekhon</a> and <a href='https://publichealth.yale.edu/cmips/'>Donna Spiegelman</a>.
-          I am interested in developing interpretable machine learning methods for estimating causal relationships, motivated by problems in the social sciences and public health. I completed my undergraduate work in statistics, economics, and computer science at UC San Diego in 2018. 
+          I am a Ph.D. student in the <a href='https://statistics.yale.edu/'>Department of Statistics and Data Science</a> at Yale University, advised by <a href='https://sekhon.berkeley.edu/'>Jas Sekhon</a>.
+I am broadly interested in causal inference and machine learning, with specific interests in developing machine learning methods for statistical surrogacy.          
+My research is motivated by problems in the social sciences and public health. 
+I completed my undergraduate work in probability and statistics, economics, and computer science at UC San Diego in 2018, advised by <a href='https://www.jelenabradic.net/'>Jelena Bradic</a> and <a href='https://econweb.ucsd.edu/~jbcullen/'>Julie Cullen</a>. 
 	  </p>
         </div>
 
@@ -52,23 +55,39 @@
 
         <div id='publications' class='section'>
           <h2>Publications</h2>
-
          <div class='publication'>
             <p class='title'>
-              Improving Estimation of Total Effects When Direct Effects Are Provided in a Meta-Analysis.
+              Nonparametric Estimation of the Potential Impact Fraction and the Population Attributable Fraction with Individual-level and Aggregate Data.
             </p>
             <p class='authors'>
-              Colleen E. Chan, Tonatiuh Barrientos Gutierrez, Rodrigo Zepeda, Dalia Camacho García Formentí, Rodrigo Barran, Rosana Torres Alvarez, Dalia Stern-Solodkin, Donna Spiegelman. 
+              Colleen E. Chan, Rodrigo Zepeda-Tello, Dalia Camacho García Formentí, Frederick Cudhea, Rafael Meza, Elaine Rodrigues, Donna Spiegelman, Tonatiuh Barrientos Gutierrez, Xin Zhou. 
             </p>
             <p class='venue'>
-              <i>Statistics in Medicine</i>, submitted.
+              <i>Ongoing</i>.
             </p>
             <div class='links'>
               <div class='abstract-link'>
                 <a href='#'><span class="chevron bottom"></span>Abstract</a>
               </div>
-              <div class='pdf-link'>
-                <a href='docs/meta-mediate-paper.pdf'>Paper</a>
+             </div>
+            <div class='abstract'>
+The estimation of the potential impact fraction (including the population attributable fraction) with continuous exposure data frequently relies on strong distributional assumptions. However, these assumptions are often violated if the underlying exposure distribution is unknown or if the same distribution is assumed across time or space. Nonparametric methods to estimate the potential impact fraction are available for cohort data, but no alternatives exist for cross-sectional data. In this article, we discuss the impact of distributional assumptions in the estimation of the population impact fraction, showing that under an infinite set of possibilities, distributional violations lead to biased estimates. We propose nonparametric methods to estimate the potential impact fraction for aggregated (mean and standard deviation) or individual data (e.g. observations from a cross-sectional population survey), and develop simulation scenarios to compare their performance against standard parametric procedures.  We also present an <tt>R</tt> package to implement these methods.
+	</div>
+     </div>
+ 
+         <div class='publication'>
+            <p class='title'>
+              Improving Estimation of Total Effects When Direct Effects Are Provided in a Meta-Analysis.
+            </p>
+            <p class='authors'>
+              Colleen E. Chan, Tonatiuh Barrientos Gutierrez, Rodrigo Zepeda-Tello, Dalia Camacho García Formentí, Rodrigo Barran, Rosana Torres Alvarez, Dalia Stern-Solodkin, Donna Spiegelman. 
+            </p>
+            <p class='venue'>
+              <i>Submitted</i>.
+            </p>
+            <div class='links'>
+              <div class='abstract-link'>
+                <a href='#'><span class="chevron bottom"></span>Abstract</a>
               </div>
               <div class='pdf-link'>
                 <a href='slides/jsm2020slides.pdf'>Slides</a>
@@ -80,7 +99,7 @@ Meta-analyses summarize evidence about an association across multiple sources of
      </div>
     <div class='publication'>
             <p class='title'>
-              Shadow Manifold Interpolation to Decompose Chaotic Signals. 
+              Decomposing Signals from Dynamical Systems using Shadow Manifold Interpolation. 
             </p>
             <p class='authors'>
               Erin S. George, Colleen E. Chan, Gal Dimand, Ryan M. Chakmak, Claudia Falcon, Robert Martin, Dan Eckhart.
@@ -91,9 +110,6 @@ Meta-analyses summarize evidence about an association across multiple sources of
             <div class='links'>
               <div class='abstract-link'>
                 <a href='#'><span class="chevron bottom"></span>Abstract</a>
-              </div>
-              <div class='pdf-link'>
-                <a href='docs/smi-paper.pdf'>Paper</a>
               </div>
               <div class='pdf-link'>
                 <a href='slides/afrl2019slides.pdf'>Slides</a>
@@ -113,17 +129,14 @@ Traditional methods in signal analysis fail to meaninggflly decompose composite 
               Food Insecurity in Medical Students: Preliminary Data.
             </p>
             <p class='authors'>
-		Amanda G. Zhou, Michael R. Mercier, Colleen E. Chan, June Criscione, Nancy Angofff, Laura R Ment.            
+		Amanda G. Zhou, Michael R. Mercier, Colleen E. Chan, June Criscione, Nancy Angoff, Laura R. Ment.            
 </p>
             <p class='venue'>
-              <i>Academic Medicine</i>, to appear.
+              <i>Academic Medicine</i>, 2021.
             </p>
             <div class='links'>
               <div class='abstract-link'>
                 <a href='#'><span class="chevron bottom"></span>Abstract</a>
-              </div>
-              <div class='pdf-link'>
-                <a href='docs/food-insecurity-paper.pdf'>Paper</a>
               </div>
              </div>
             <div class='abstract'>
@@ -132,6 +145,8 @@ Food insecurity, lack of money or resources that limits access to adequate food,
 Administration at Yale School of Medicine (YSM) is dedicated to improving student wellness and supporting its students’ needs and thus is interested in understanding food insecurity in its student population. In this article, the authors describe a pilot study conducted in April 2019 that assessed the prevalence and predictors of food insecurity at YSM. This pilot study demonstrated that there are higher rates of food insecurity at YSM than in the general population and that certain groups of students are more food insecure than others. In particular, male gender and being underrepresented in medicine were independent predictors of food insecurity. The authors then describe areas for further investigation as well as potential programs and other interventions for medical schools facing food insecurity. They conclude by reviewing the adverse implications of a high prevalence of food insecurity in medical students and by encouraging other medical schools to recognize and investigate this important issue.
 </div>
      </div>
+
+
 
               </script>         <script type="text/javascript">
             $(".abstract-link").click(function(e) {
@@ -178,13 +193,21 @@ Administration at Yale School of Medicine (YSM) is dedicated to improving studen
               var url = $(this).attr("href");
               ga("send", "pageview", url);
             });
-          </script>   
+          </script>
     </div>
+
+<!--
+         <div id='software' class='section'>
+          <h2>Software</h2>
+	 <tt>metamediate</tt>: An R package for computing mediation proprotions.
+	
+	</div>
+-->
 
          <div id='teaching' class='section'>
           <h2>Teaching</h2>
-          <p>
-            I have enjoyed helping teach the following courses: <br> <br>
+          <p> I have enjoyed helping teach the following courses. </p>
+	  <p>
 		At Yale:
             <ul>
 		<li> S&DS 230/530: Data Exploration and Analysis, Spring 2019, Summer 2020</li>
@@ -192,18 +215,17 @@ Administration at Yale School of Medicine (YSM) is dedicated to improving studen
 		<li> S&DS 242/542: Theory of Statistics, Spring 2020</li>
 		<li> S&DS 317/517: Machine Learning and Causal Inference, Spring 2021</li>
 		<li> S&DS 365/565: Data Mining and Machine Learning, Fall 2019</li>
-		<li> S&DS 627/628: Statistical Consulting, Fall 2019, Spring 2020, Fall 2021, Spring 2021</li>
+		<li> S&DS 627: Statistical Consulting, Fall 2019, Spring 2020, Fall 2021, Spring 2021</li>
 	    </ul>
-Average Rating: 4.44/5.0 (N=106) where 4 is "very good" and 5 is "excellent" <br> <br>
-
+<!--Average Rating: 4.33/5.0 (N=133) where 4 is "very good" and 5 is "excellent" <br>-->
 		At UC San Diego:
 	    <ul>
 		<li> ECON 5: Data Analytics for the Social Sciences, Spring 2018</li>
 		<li> ECON 100A: Intermediate Microeconomics I, Fall 2016</li>
 		<li> MATH 11: Calculus-Based Probablity and Statistics, Fall 2016, Winter 2017, Spring 2017</li> 
-		<li> MATH 20E: Vector Calculus</li>
+		<li> MATH 20E: Vector Calculus, Summer II 2016</li>
 	    </ul>
-Average Rating: 4.64/5.0 (N=88) where 4 is "recommend" and 5 is "strongly recommend"
+<!--Average Rating: 4.64/5.0 (N=88) where 4 is "recommend" and 5 is "strongly recommend"-->
           </p>
         </div>
         
