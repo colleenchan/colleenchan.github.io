@@ -1,41 +1,41 @@
 body {
-	font-family: 'Open Sans', 'Lucida Grande', tahoma, arial, sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-	color: #282828;
-	line-height: 22px;
-	text-align: center;
-	margin: 0;
-	padding: 0;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #282828;
+        line-height: 22px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Helvetica', arial, sans-serif;
-	color: #282828;
+        font-family: 'Serif Sans Pro', sans-serif;
+        color: #282828;
 }
 
 h1 {
-	font-size: 24px;
-	line-height: 28px;
-	margin: 20px 0px;
+        font-size: 24px;
+        line-height: 28px;
+        margin: 20px 0px 0px 0px;
 }
 
 h2 {
-	margin-top: 0;
-	font-size: 20px;
-	margin: 16px 0;
+        margin-top: 0;
+        font-size: 20px;
+        margin: 16px 0;
 }
 
 p {
-	margin: 12px 0px;
+        margin: 12px 0px;
 }
 
 
 a {
-	text-decoration: none;
-	color: #1F77B4;
-	margin: 8px 0px;
-	font-weight: 500;
+        text-decoration: none;
+        color: #1F77B4;
+        margin: 8px 0px;
+        font-weight: 500;
 }
 /*a:visited {
   color: #2CA02C;
@@ -43,12 +43,13 @@ a {
 */
 
 a:hover {
-	text-decoration: underline;
+        text-decoration: underline;
 }
 
 img {
-	border: solid 1px #CCC;
+        border: solid 1px #CCC;
 }
+
 
 #wrapper {
 	margin: auto;
