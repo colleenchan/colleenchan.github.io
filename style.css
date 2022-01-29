@@ -1,41 +1,41 @@
 body {
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        color: #282828;
-        line-height: 22px;
-        text-align: center;
-        margin: 0;
-        padding: 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #282828;
+	line-height: 20px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-        font-family: 'Serif Sans Pro', sans-serif;
-        color: #282828;
+	font-family: 'Serif Sans Pro', sans-serif;
+	color: #282828;
 }
 
 h1 {
-        font-size: 24px;
-        line-height: 28px;
-        margin: 20px 0px 0px 0px;
+	font-size: 24px;
+	line-height: 28px;
+	margin: 20px 0px 0px 0px;
 }
 
 h2 {
-        margin-top: 0;
-        font-size: 20px;
-        margin: 16px 0;
+	margin-top: 0;
+	font-size: 20px;
+	margin: 16px 0;
 }
 
 p {
-        margin: 12px 0px;
+	margin: 12px 0px;
 }
 
 
 a {
-        text-decoration: none;
-        color: #1F77B4;
-        margin: 8px 0px;
-        font-weight: 500;
+	text-decoration: none;
+	color: #1F77B4;
+	margin: 8px 0px;
+	font-weight: 500;
 }
 /*a:visited {
   color: #2CA02C;
@@ -43,13 +43,12 @@ a {
 */
 
 a:hover {
-        text-decoration: underline;
+	text-decoration: underline;
 }
 
 img {
-        border: solid 1px #CCC;
+	border: solid 1px #CCC;
 }
-
 
 #wrapper {
 	margin: auto;
@@ -65,22 +64,22 @@ img {
   display: inline-block;
 	width: 200px;
 	padding-left: 0px;
-	padding-right: 46px;
+	padding-right: 0px;
   z-index: 1;
 }
 
 #main {
-	margin-left: 230px;
-	padding-top: 60px;
-	padding-bottom: 100px;
-	width: 630px;
+	margin-left: 240px;
+	padding-top: 55px;
+	padding-bottom: 80px;
+	width: 650px;
   z-index: 20;
   background-color: white;
 }
 
 .section {
 	padding-top: 25px;
-	padding-bottom: 35px;
+	padding-bottom: 30px;
   padding-left: 10px;
   padding-right: 10px;
   position: relative;
@@ -102,7 +101,7 @@ img {
 #info_box {
 	font-size: 14px;
 	line-height: 18px;
-	padding-left: 2px;
+	text-align: center;
 }
 
 .visibility-hidden {
