@@ -48,7 +48,7 @@
           <h2>Overview</h2>
           <p>
           I am a Ph.D. student in the <a href='https://statistics.yale.edu/'>Department of Statistics and Data Science</a> at Yale University, advised by <a href='https://sekhon.berkeley.edu/'>Jas Sekhon</a>.
-I am broadly interested in causal inference and machine learning, with specific interests in developing machine learning methods for statistical surrogacy, transportability, and experiment design.         
+I am broadly interested in causal inference and machine learning, with specific interests in developing machine learning methods for heterogeneous treatment effect estimation and transportability.         
 My research is motivated by problems in the social sciences and public health. 
 Before Yale, I completed my undergraduate work at UC San Diego in 2018.  
 	  </p>
@@ -57,7 +57,33 @@ Before Yale, I completed my undergraduate work at UC San Diego in 2018.
 
 
         <div id='publications' class='section'>
-          <h2>Journal Publications</h2>
+          <h2>Publications</h2>
+
+         <div class='publication'>
+            <p class='title'>
+              Honest Random Forests for Heterogeneous Treatment Effect Estimation with Covariate Shift.
+            </p>
+            <p class='authors'>
+              Colleen E. Chan, Theo F. Saarinen, Jasjeet S. Sekhon. 
+            </p>
+            <p class='venue'>
+              <i>Ongoing</i>.
+            </p>
+            <div class='links'>
+              <div class='abstract-link'>
+                <a href='#'><span class="chevron bottom"></span>Abstract</a>
+              </div>
+              <div class='pdf-link'>
+                <a href='posters/acic2022poster.pdf'>Poster</a>
+              </div>
+             </div>
+            <div class='abstract'>
+In many real world applications, machine learning algorithms are used for prediction in environments that do not share the covariate distribution of the data that the algorithm was trained on. When this is the case, it is important for the algorithm to be robust to the distributional shift of the covariates to avoid harmful results down the line. For example, the Epic Sepsis model, a proprietary sepsis prediction model, had considerably worse than reported accuracy when deployed in the hundreds of hospitals not included in the training data. In any transfer learning problem, the change in the data generating process can manifest itself in two ways: a shift in the distribution of the covariates, and a change in the outcome regression function itself. We study an approach for training machine learning algorithms that aims to solve the first of these issues. Specifically, we introduce a version of the random forest algorithm that makes use of a novel sample splitting procedure during training in order to induce robustness to covariate shift at prediction time. We also provide a proof for identification of the CATE function under restrictions on the model shift between groups. In contrast to a standard random sample split, we restrict the predictions of the forest to only trees not trained on any observations from a given group. This form of prediction ensures that the forest can make robust predictions for the various experimental groups even in the presence of distributional shifts. Out of sample, this method relies on the assumption that the distributional shifts within the training groups are similar to the distributional shifts within the groups out of sample. We develop simulations that demonstrate that our method outperforms existing meta-analytic approaches. Finally, we apply our method to get-out-the-vote data.
+	</div>
+     </div>
+
+
+
          <div class='publication'>
             <p class='title'>
               Nonparametric Estimation of the Potential Impact Fraction and the Population Attributable Fraction with Individual-level and Aggregate Data.
@@ -68,6 +94,7 @@ Before Yale, I completed my undergraduate work at UC San Diego in 2018.
             <p class='venue'>
               <i>Ongoing</i>.
             </p>
+	    <p><b>Young Statistician Showcase Presentation</b> at IBC 2022.</p> 
             <div class='links'>
               <div class='abstract-link'>
                 <a href='#'><span class="chevron bottom"></span>Abstract</a>
@@ -113,6 +140,7 @@ Meta-analyses summarize evidence about an association across multiple sources of
             <p class='venue'>
               <i>SIAM Journal on Applied Dynamical Systems</i> (2021); 20(4), 2236-2260. 
             </p>
+	    <p><b>Outstanding Poster Award</b> at JMM 2019.</p>
             <div class='links'>
               <div class='abstract-link'>
                 <a href='#'><span class="chevron bottom"></span>Abstract</a>
@@ -242,6 +270,7 @@ Administration at Yale School of Medicine (YSM) is dedicated to improving studen
 	 </ul>
 	</div>
 
+
          <div id='teaching' class='section'>
           <h2>Teaching</h2>
           <p> I have enjoyed helping teach the following courses. </p>
@@ -256,7 +285,6 @@ Administration at Yale School of Medicine (YSM) is dedicated to improving studen
 		 <li> S&DS 617: Applied Machine Learning and Causal Inference Research Seminar, Fall 2021</li>
 		 <li> S&DS 627: Statistical Consulting, Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021, Spring 2022</li>
 	    </ul>
-<!--Average Rating: 4.42/5.0 (N=161) where 4 is "very good" and 5 is "excellent" <br>-->
 		At UC San Diego:
 	    <ul>
 		<li> ECON 5: Data Analytics for the Social Sciences, Spring 2018</li>
@@ -264,7 +292,6 @@ Administration at Yale School of Medicine (YSM) is dedicated to improving studen
 		<li> MATH 11: Calculus-Based Probablity and Statistics, Fall 2016, Winter 2017, Spring 2017</li> 
 		<li> MATH 20E: Vector Calculus, Summer II 2016</li>
 	    </ul>
-<!--Average Rating: 4.64/5.0 (N=88) where 4 is "recommend" and 5 is "strongly recommend"-->
           </p>
         </div>
 
@@ -282,7 +309,7 @@ Administration at Yale School of Medicine (YSM) is dedicated to improving studen
 	</ul>
 	</div>       
 <p style="font-size: 0.8em; padding-top: 10px; color: gray;">
-Last updated: January 2022. <br />       
+Last updated: May 2022. <br />       
         
       </div><!-- main -->
     </div>
