@@ -1,23 +1,23 @@
 body {
-	font-family: 'Open Sans', 'Lucida Grande', tahoma, arial, sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: #282828;
-	line-height: 22px;
+	line-height: 20px;
 	text-align: center;
 	margin: 0;
 	padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Helvetica', arial, sans-serif;
+	font-family: 'Serif Sans Pro', sans-serif;
 	color: #282828;
 }
 
 h1 {
 	font-size: 24px;
 	line-height: 28px;
-	margin: 20px 0px;
+	margin: 20px 0px 0px 0px;
 }
 
 h2 {
@@ -62,24 +62,24 @@ img {
 	position: fixed;
 	top: 65px;
   display: inline-block;
-	width: 200px;
+	width: 195px;
 	padding-left: 0px;
-	padding-right: 46px;
+	padding-right: 0px;
   z-index: 1;
 }
 
 #main {
-	margin-left: 230px;
-	padding-top: 60px;
-	padding-bottom: 100px;
-	width: 630px;
+	margin-left: 240px;
+	padding-top: 55px;
+	padding-bottom: 80px;
+	width: 655px;
   z-index: 20;
   background-color: white;
 }
 
 .section {
 	padding-top: 25px;
-	padding-bottom: 35px;
+	padding-bottom: 30px;
   padding-left: 10px;
   padding-right: 10px;
   position: relative;
@@ -101,7 +101,7 @@ img {
 #info_box {
 	font-size: 14px;
 	line-height: 18px;
-	padding-left: 2px;
+	text-align: center;
 }
 
 .visibility-hidden {
