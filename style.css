@@ -149,3 +149,10 @@ img {
 width: 15px;
 display: inline-block;
 }
+
+.no-border {
+        border: none;
+        background-color: transparent;
+        display: inline-block;
+        margin: 0 2px;
+}
