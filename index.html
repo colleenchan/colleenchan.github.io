@@ -11,7 +11,7 @@
     <link rel='stylesheet' href='chevron.css' />
 
     <!-- Libraries -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,500,700' rel='stylesheet' type='text/css'>
     
     <!-- Analytics -->
@@ -39,16 +39,25 @@
 <p>&#099;&#111;&#108;&#108;&#101;&#101;&#110;&#046;&#099;&#104;&#097;&#110;@yale.edu</p>
 	<p>219 Prospect St,<br>Kline Tower Room 1205,<br>New Haven, CT 06511</p>
     	<a href="https://scholar.google.com/citations?user=C4BvwEMAAAAJ">
-    	<img src="icons/googlescholar.png" alt="Google Scholar Logo" class="no-border"  style="width: auto; height: 23px;">
+    	<img src="icons/googlescholar.png" alt="Google Scholar Logo" class="no-border icon"  style="width: auto; height: 23px;">
 	</a>
 	<a href="https://www.github.com/colleenchan">
-    	<img src="icons/github.png" alt="GitHub Logo" class="no-border" style="width: auto; height: 23px;">
+    	<img src="icons/github.png" alt="GitHub Logo" class="no-border icon" style="width: auto; height: 23px;">
 	</a>
 	<a href="https://www.linkedin.com/in/colleenechan/">
-    	<img src="icons/linkedin.png" alt="LinkedIn Logo" class="no-border" style="width: auto; height: 23px;">
+    	<img src="icons/linkedin.png" alt="LinkedIn Logo" class="no-border icon" style="width: auto; height: 23px;">
 	</a>
 	</p>
 	</div>        
+
+                <div class="mode-toggle">
+                    dark mode
+                    <label class="switch">
+                        <input type="checkbox" id="modeSwitch">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+
       </div><!-- left_bar -->
 
       <div id='main'>
@@ -65,98 +74,12 @@ Before Yale, I completed my undergraduate work at <a href='https://math.ucsd.edu
 	I will be joining  <a href = "https://research.netflix.com/">Netflix</a> as a research scientist starting July 2024.
 	</p>
 
-	  <!--<a href="https://www.dropbox.com/s/07ovtjq0xrk94n2/ColleenChanCV.pdf?dl=0">My CV</a></p>-->
         </div>
 
         <div id='publications' class='section'>
           <h2>Research</h2>
 
-         <div class='publication'>
-            <p class='title'>
-            Assessing the Usability of GutGPT: A Simulation Study of an AI Clinical Decision Support System for Gastrointestinal Bleeding Risk.
-	    </p>
-	    <p class='authors'>
-            Colleen Chan, Kisung You, Sunny Chung, Mauro Giuffrè, Theo Saarinen, Niroop Rajashekar, Yuan Pu, Yeo Eun Shin, Loren Laine, Ambrose Wong, René Kizilcec, Jasjeet Sekhon, Dennis Shung.
-	    </p>
-            <p class='venue'>
-	    <i>Machine Learning for Health (ML4H) 2023.</i>
-            </p>
-            <div class='links'>
-              <div class='abstract-link'>
-                <a href='#'><span class="chevron bottom"></span>Abstract</a>
-              </div>
-	      <div class='link'>
-		<a href='https://arxiv.org/abs/2312.10072'>Paper</a>	      
-              </div>
-	      <div class='pdf-link'>
-                <a href='slides/jsm2023slides.pdf'>Slides</a>
-              </div>
-	      <div class='pdf-link'>
-		<a href='posters/ml4h2023poster.pdf'>Poster</a>
-	      </div>
-	      <div class='bibtex-link'>
-	        <a href='#'><span class="chevron bottom"></span>Bibtex</a>
-	      </div>
-             </div>
-            <div class='abstract'>
-	Applications of large language models (LLMs) like ChatGPT have potential to enhance clinical decision support through conversational interfaces. However, challenges of human-algorithmic interaction and clinician trust are poorly understood. GutGPT, a LLM for gastrointestinal (GI) bleeding risk prediction and management guidance, was deployed in clinical simulation scenarios alongside the electronic health record (EHR) with emergency medicine physicians, internal medicine physicians, and medical students to evaluate its effect on physician acceptance and trust in AI clinical decision support systems (AI-CDSS). GutGPT provides risk predictions from a validated machine learning model and evidence-based answers by querying extracted clinical guidelines. Participants were randomized to GutGPT and an interactive dashboard, or the interactive dashboard and a search engine. Surveys and educational assessments taken before and after measured technology acceptance and content mastery. Preliminary results showed mixed effects on acceptance after using GutGPT compared to the dashboard or search engine but appeared to improve content mastery based on simulation performance. Overall, this study demonstrates LLMs like GutGPT could enhance effective AI-CDSS if implemented optimally and paired with interactive interfaces.	
-	</div>
-            <div class='bibtex'>
-		@article{chan2023assessing,<br />
-  		<span class='space'></span>title={Assessing the Usability of GutGPT: A Simulation Study of an AI Clinical Decision Support System for Gastrointestinal Bleeding Risk}},<br />
-  		<span class='space'></span>author={Colleen Chan and Kisung You and Sunny Chung and Mauro Giuffrè and Theo Saarinen and Niroop Rajashekar and Yuan Pu and Yeo Eun Shin and Loren Laine and Ambrose Wong and René Kizilcec and Jasjeet Sekhon and Dennis Shung},<br />
-  		<span class='space'></span>journal={arXiv preprint arXiv:2312.10072},<br />
-  		<span class='space'></span>year={2023}<br />
-		}
-            </div>
-     </div>
-
-
-         <div class='publication'>
-            <p class='title'>
-            Efficient Weighted Estimators of Interference Effects under Hypothetical Treatment Allocations in Two-Stage Randomized Experiments under Bernoulli Assignment. 
-	    </p>
-            <p class='authors'>
-              Colleen Chan, Shinpei Nakamura Sakai, Laura Forastiere. 
-            </p>
-            <p class='venue'>
-            </p>
-            <div class='links'>
-              <div class='abstract-link'>
-                <a href='#'><span class="chevron bottom"></span>Abstract</a>
-              </div>
-	      <div class='pdf-link'>
-                <a href='posters/acic2023poster.pdf'>Poster</a>
-              </div>
-             </div>
-            <div class='abstract'>
-In many applications, the no-interference assumption in causal inference is often violated as individuals often interact with one another. Two-stage randomized experiments are incredibly useful designs for estimating causal effects of a given treatment in the presence of interference. In this design, clusters are assigned a treatment saturation level in the first stage, and each unit within a cluster is randomized to treatment or control according to the assigned saturation level in the second stage. Previous two-stage designs have been proposed under complete randomization in both stages, and simple difference-in-means estimators have been developed under the partial interference assumption. However, complete randomization in the second stage only allows the estimation of causal effects under the treatment saturations of the first stage. We propose instead a Bernoulli assignment in the second stage and weighted estimators of direct and spillover effects, combining information from all clusters. One clear advantage of using Bernoulli assignment is that it allows researchers to estimate causal effects under hypothetical treatment allocations. We derive cluster weights achieving the optimal bias-variance trade-off for our estimator. We develop simulation studies to analyze the finite sample performance of our proposed estimators. Finally, we illustrate our methodology with a data-inspired information campaign to prevent anemia in India.	
-	</div>
-
-     </div>
-
-
-         <div class='publication'>
-            <p class='title'>
-              Honest Random Forests for Heterogeneous Treatment Effect Estimation with Covariate Shift.
-            </p>
-            <p class='authors'>
-              Colleen Chan, Theo Saarinen, Jasjeet Sekhon.
-            </p>
-            <p class='venue'>
-            </p>
-            <div class='links'>
-              <div class='abstract-link'>
-                <a href='#'><span class="chevron bottom"></span>Abstract</a>
-              </div>
-              <div class='pdf-link'>
-                <a href='posters/acic2022poster.pdf'>Poster</a>
-              </div>
-             </div>
-            <div class='abstract'>
-In many real world applications, machine learning algorithms are used for prediction in environments that do not share the covariate distribution of the data that the algorithm was trained on. When this is the case, it is important for the algorithm to be robust to the distributional shift of the covariates to avoid harmful results down the line. For example, the Epic Sepsis model, a proprietary sepsis prediction model, had considerably worse than reported accuracy when deployed in the hundreds of hospitals not included in the training data. In any transfer learning problem, the change in the data generating process can manifest itself in two ways: a shift in the distribution of the covariates, and a change in the outcome regression function itself. We study an approach for training machine learning algorithms that aims to solve the first of these issues. Specifically, we introduce a version of the random forest algorithm that makes use of a novel sample splitting procedure during training in order to induce robustness to covariate shift at prediction time. We also provide a proof for identification of the CATE function under restrictions on the model shift between groups. In contrast to a standard random sample split, we restrict the predictions of the forest to only trees not trained on any observations from a given group. This form of prediction ensures that the forest can make robust predictions for the various experimental groups even in the presence of distributional shifts. Out of sample, this method relies on the assumption that the distributional shifts within the training groups are similar to the distributional shifts within the groups out of sample. We develop simulations that demonstrate that our method outperforms existing meta-analytic approaches. Finally, we apply our method to get-out-the-vote data.
-	</div>
-     </div>
+	 <h3><i>Journal Publications and Preprints</i></h3>
 
 
 
@@ -165,7 +88,7 @@ In many real world applications, machine learning algorithms are used for predic
               Nonparametric Estimation of the Potential Impact Fraction and the Population Attributable Fraction with Individual-level and Aggregate Data.
             </p>
             <p class='authors'>
-              Colleen Chan, Rodrigo Zepeda-Tello, Dalia Camacho García Formentí, Frederick Cudhea, Rafael Meza, Eliane Rodrigues, Donna Spiegelman, Tonatiuh Barrientos Gutierrez, Xin Zhou. 
+              Colleen E. Chan, Rodrigo Zepeda-Tello, Dalia Camacho García Formentí, Frederick Cudhea, Rafael Meza, Eliane Rodrigues, Donna Spiegelman, Tonatiuh Barrientos Gutierrez, Xin Zhou. 
             </p>
             <p class='venue'>
             arXiv:2207.03597.
@@ -185,7 +108,7 @@ In many real world applications, machine learning algorithms are used for predic
 		<a href='https://github.com/colleenchan/pifpaf_replication'>Replication Code</a>
 	      </div>
 	      <div class='bibtex-link'>
-	        <a href='#'><span class="chevron bottom"></span>Bibtex</a>
+	        <a href='#'><span class="chevron bottom"></span>BibTeX</a>
 	      </div>
             </div>
             <div class='bibtex'>
@@ -251,7 +174,7 @@ Meta-analyses summarize evidence about an association across multiple sources of
                 <a href='posters/jmm2019poster.pdf'>Poster</a>
               </div>
 	      <div class='bibtex-link'>
-	        <a href='#'><span class="chevron bottom"></span>Bibtex</a>
+	        <a href='#'><span class="chevron bottom"></span>BibTeX</a>
 	      </div>
             </div>
             <div class='abstract'>
@@ -289,7 +212,7 @@ Traditional methods in signal analysis fail to meaningfully decompose composite 
 		<a href='https://doi.org/10.1097/ACM.0000000000004048'>Paper</a>	      
               </div>
 	      <div class='bibtex-link'>
-	        <a href='#'><span class="chevron bottom"></span>Bibtex</a>
+	        <a href='#'><span class="chevron bottom"></span>BibTeX</a>
 	      </div>
              </div>
             <div class='abstract'>
@@ -309,32 +232,140 @@ Administration at Yale School of Medicine (YSM) is dedicated to improving studen
   		<span class='space'></span>publisher={LWW}<br /> 
 		}
             </div>
+
+	 <h3><i>Peer-Reviewed Conference Papers</i></h3>
+
+         <div class='publication'>
+            <p class='title'>
+            Assessing the Usability of GutGPT: A Simulation Study of an AI Clinical Decision Support System for Gastrointestinal Bleeding Risk.
+	    </p>
+	    <p class='authors'>
+            Colleen Chan, Kisung You, Sunny Chung, Mauro Giuffrè, Theo Saarinen, Niroop Rajashekar, Yuan Pu, Yeo Eun Shin, Loren Laine, Ambrose Wong, René Kizilcec, Jasjeet Sekhon, Dennis Shung.
+	    </p>
+            <p class='venue'>
+	    <i>Machine Learning for Health (ML4H) – Findings track, 2023.</i>
+            </p>
+            <div class='links'>
+              <div class='abstract-link'>
+                <a href='#'><span class="chevron bottom"></span>Abstract</a>
+              </div>
+	      <div class='link'>
+		<a href='https://arxiv.org/abs/2312.10072'>Paper</a>	      
+              </div>
+	      <div class='pdf-link'>
+                <a href='slides/jsm2023slides.pdf'>Slides</a>
+              </div>
+	      <div class='pdf-link'>
+		<a href='posters/ml4h2023poster.pdf'>Poster</a>
+	      </div>
+	      <div class='bibtex-link'>
+	        <a href='#'><span class="chevron bottom"></span>BibTeX</a>
+	      </div>
+             </div>
+            <div class='abstract'>
+	Applications of large language models (LLMs) like ChatGPT have potential to enhance clinical decision support through conversational interfaces. However, challenges of human-algorithmic interaction and clinician trust are poorly understood. GutGPT, a LLM for gastrointestinal (GI) bleeding risk prediction and management guidance, was deployed in clinical simulation scenarios alongside the electronic health record (EHR) with emergency medicine physicians, internal medicine physicians, and medical students to evaluate its effect on physician acceptance and trust in AI clinical decision support systems (AI-CDSS). GutGPT provides risk predictions from a validated machine learning model and evidence-based answers by querying extracted clinical guidelines. Participants were randomized to GutGPT and an interactive dashboard, or the interactive dashboard and a search engine. Surveys and educational assessments taken before and after measured technology acceptance and content mastery. Preliminary results showed mixed effects on acceptance after using GutGPT compared to the dashboard or search engine but appeared to improve content mastery based on simulation performance. Overall, this study demonstrates LLMs like GutGPT could enhance effective AI-CDSS if implemented optimally and paired with interactive interfaces.	
+	</div>
+            <div class='bibtex'>
+		@article{chan2023assessing,<br />
+  		<span class='space'></span>title={Assessing the Usability of GutGPT: A Simulation Study of an AI Clinical Decision Support System for Gastrointestinal Bleeding Risk},<br />
+  		<span class='space'></span>author={Colleen Chan and Kisung You and Sunny Chung and Mauro Giuffrè and Theo Saarinen and Niroop Rajashekar and Yuan Pu and Yeo Eun Shin and Loren Laine and Ambrose Wong and René Kizilcec and Jasjeet Sekhon and Dennis Shung},<br />
+  		<span class='space'></span>journal={arXiv preprint arXiv:2312.10072},<br />
+  		<span class='space'></span>year={2023}<br />
+		}
+            </div>
      </div>
+
+         <div class='publication'>
+            <p class='title'>
+	    Human-Algorithmic Interaction Using a Large Language Model-Augmented Artificial Intelligence Clinical Decision Support System.
+	    </p>
+	    <p class='authors'>
+	    Niroop Rajashekar, Yeo Eun Shin, Yuan Pu, Sunny Chung, Kisung You, Mauro Giuffrè, Colleen Chan, Theo Saarinen, Allen Hsiao, Jasjeet Sekhon, Ambrose Wong, Leigh Evans, René Kizilcec, Loren Laine, Terika McCall, Dennis Shung.
+	    </p>
+            <p class='venue'>
+	    <i>Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (CHI ’24).</i>
+            </p>
+            <div class='links'>
+              <div class='abstract-link'>
+                <a href='#'><span class="chevron bottom"></span>Abstract</a>
+              </div>
+	      <div class='link'>
+		<a href='https://arxiv.org/abs/2312.10072'>Paper</a>	      
+              </div>
+	      <div class='bibtex-link'>
+	        <a href='#'><span class="chevron bottom"></span>BibTeX</a>
+	      </div>
+             </div>
+            <div class='abstract'>
+Integration of artificial intelligence (AI) into clinical decision support systems (CDSS) poses a socio-technological challenge that is impacted by usability, trust, and human-computer interaction (HCI). AI-CDSS interventions have shown limited benefit in clinical outcomes, which may be due to insufficient understanding of how health-care providers interact with AI systems. Large language models (LLMs) have the potential to enhance AI-CDSS, but haven't been studied in either simulated or real-world clinical scenarios. We present findings from a randomized controlled trial deploying AI-CDSS for the management of upper gastrointestinal bleeding (UGIB) with and without an LLM interface within realistic clinical simulations for physician and medical student participants. We find evidence that LLM augmentation improves ease-of-use, that LLM-generated responses with citations improve trust, and HCI varies based on clinical expertise. Qualitative themes from interviews suggest the perception of LLM-augmented AI-CDSS as a team-member used to confirm initial clinical intuitions and help evaluate borderline decisions. 
+	</div>
+            <div class='bibtex'>
+		@article{rajashekar2024human,<br />
+  		<span class='space'></span>title={Human-Algorithmic Interaction Using a Large Language Model-Augmented Artificial Intelligence Clinical Decision Support System},<br />
+  		<span class='space'></span>author={Niroop Channa Rajashekar and Yeo Eun Shin and Yuan Pu and Sunny Chung and Kisung You and Mauro Giuffre and Colleen E. Chan and Theo Saarinen and Allen Hsiao and Jasjeet Sekhon and Ambrose H. Wong and Leigh V. Evans and Rene F. Kizilcec and Loren Laine and Terika McCall and Dennis Shung},<br />
+  		<span class='space'></span>booktitle={Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems},<br />
+  		<span class='space'></span>year={2024},<br />
+  		<span class='space'></span>pages={20},<br />
+  		<span class='space'></span>address={New York, NY, USA},<br />
+  		<span class='space'></span>publisher={ACM},<br />
+  		<span class='space'></span>doi={10.1145/3613904.3642024},<br />
+  		<span class='space'></span>location={Honolulu, HI},<br />
+		}
+            </div>
+     </div>
+
+
+     <h3><i>Working Papers</i></h3>
+
+         <div class='publication'>
+            <p class='title'>
+Horvitz-Thompson Estimators of Spillover Effects under Hypothetical Bernoulli Treatment Allocations in Two-Stage Randomized Experiments.            
+	    </p>
+            <p class='authors'>
+              Colleen Chan, Shinpei Nakamura Sakai, Laura Forastiere. 
+            </p>
+            <p class='venue'>
+            </p>
+            <div class='links'>
+              <div class='abstract-link'>
+                <a href='#'><span class="chevron bottom"></span>Abstract</a>
+              </div>
+	      <div class='pdf-link'>
+                <a href='posters/acic2023poster.pdf'>Poster</a>
+              </div>
+             </div>
+            <div class='abstract'>
+In many applications, the no-interference assumption in causal inference is often violated as individuals often interact with one another. Two-stage randomized experiments are incredibly useful designs for estimating causal effects of a given treatment in the presence of interference. In this design, clusters are assigned a treatment saturation level in the first stage, and each unit within a cluster is randomized to treatment or control according to the assigned saturation level in the second stage. Previous two-stage designs have been proposed under complete randomization in both stages, and simple difference-in-means estimators have been developed under the partial interference assumption. However, complete randomization in the second stage only allows the estimation of causal effects under the treatment saturations of the first stage. We propose instead a Bernoulli assignment in the second stage and weighted estimators of direct and spillover effects, combining information from all clusters. One clear advantage of using Bernoulli assignment is that it allows researchers to estimate causal effects under hypothetical treatment allocations. We derive cluster weights achieving the optimal bias-variance trade-off for our estimator. We develop simulation studies to analyze the finite sample performance of our proposed estimators. Finally, we illustrate our methodology with a data-inspired information campaign to prevent anemia in India.	
+	</div>
+
+     </div>
+
+
+         <div class='publication'>
+            <p class='title'>
+              Honest Random Forests for Heterogeneous Treatment Effect Estimation with Covariate Shift.
+            </p>
+            <p class='authors'>
+              Colleen Chan, Theo Saarinen, Jasjeet Sekhon.
+            </p>
+            <p class='venue'>
+            </p>
+            <div class='links'>
+              <div class='abstract-link'>
+                <a href='#'><span class="chevron bottom"></span>Abstract</a>
+              </div>
+              <div class='pdf-link'>
+                <a href='posters/acic2022poster.pdf'>Poster</a>
+              </div>
+             </div>
+            <div class='abstract'>
+In many real world applications, machine learning algorithms are used for prediction in environments that do not share the covariate distribution of the data that the algorithm was trained on. When this is the case, it is important for the algorithm to be robust to the distributional shift of the covariates to avoid harmful results down the line. For example, the Epic Sepsis model, a proprietary sepsis prediction model, had considerably worse than reported accuracy when deployed in the hundreds of hospitals not included in the training data. In any transfer learning problem, the change in the data generating process can manifest itself in two ways: a shift in the distribution of the covariates, and a change in the outcome regression function itself. We study an approach for training machine learning algorithms that aims to solve the first of these issues. Specifically, we introduce a version of the random forest algorithm that makes use of a novel sample splitting procedure during training in order to induce robustness to covariate shift at prediction time. We also provide a proof for identification of the CATE function under restrictions on the model shift between groups. In contrast to a standard random sample split, we restrict the predictions of the forest to only trees not trained on any observations from a given group. This form of prediction ensures that the forest can make robust predictions for the various experimental groups even in the presence of distributional shifts. Out of sample, this method relies on the assumption that the distributional shifts within the training groups are similar to the distributional shifts within the groups out of sample. We develop simulations that demonstrate that our method outperforms existing meta-analytic approaches. Finally, we apply our method to get-out-the-vote data.
+	</div>
+     </div>
+
+
+
      <script type="text/javascript">
-            $(".abstract-link").click(function(e) {
-              e.preventDefault();
-              var $p <script type="text/javascript">
-            $(".abstract-link").click(function(e) {
-              e.preventDefault();
-              var $parent = $(this).parent();
-              $(this).find(".chevron").toggleClass("bottom");
-              $parent.siblings(".abstract").slideToggle(30);
-              $parent.siblings(".bibtex").slideUp(30);
-              $parent.find(".bibtex-link .chevron").addClass("bottom");
-            });
-            $(".bibtex-link").click(function(e) {
-              e.preventDefault();
-              var $parent = $(this).parent();
-              $(this).find(".chevron").toggleClass("bottom");
-              $parent.siblings(".bibtex").slideToggle(30);
-              $parent.siblings(".abstract").slideUp(30);
-              $parent.find(".abstract-link .chevron").addClass("bottom");
-            });
-            $("#publications .pdf-link a").on("mousedown", function(e) {
-              var url = $(this).attr("href");
-              ga("send", "pageview", url);
-            });
-          </script>         <script type="text/javascript">
             $(".abstract-link").click(function(e) {
               e.preventDefault();
               var $parent = $(this).parent();
@@ -399,21 +430,22 @@ Administration at Yale School of Medicine (YSM) is dedicated to improving studen
           <h2>Past Employment</h2>
 	<ul>
 		<li> Machine Learning Intern, <a href = "https://research.netflix.com/">Netflix Research</a>, Summer 2023 </li>
-		<li> AI Resident, <a href = "https://www.x.company">Google X</a>, Fall 2021 </li>
+		<li> AI Resident, <a href = "https://www.x.company">X, the moonshot factory (formerly Google X)</a>, Fall 2021 </li>
 		<li> Data Scientist Intern, Amazon, Summer 2020 </li>
 		<li> Risk/Quant Specialist Intern, Federal Reserve Bank of Chicago, Summer 2019 </li>
-		<li> Researcher, UCLA IPAM <a href = "http://www.ipam.ucla.edu/programs/student-research-programs/research-in-industrial-projects-for-students-rips-2018/">RIPS Program</a>, Summer 2018 </li>
-		<li> Researcher, UCLA <a href = "https://www.math.ucla.edu/~bertozzi/WORKFORCE/">Computational and Applied Math REU</a>, Summer 2017 </li>
+		<li> Researcher, UCLA Institute for Pure and Applied Mathematics <a href = "http://www.ipam.ucla.edu/programs/student-research-programs/research-in-industrial-projects-for-students-rips-2018/">RIPS Program</a>, Summer 2018 </li>
+		<li> Undergraduate Researcher, UCLA <a href = "https://www.math.ucla.edu/~bertozzi/WORKFORCE/">Computational and Applied Math REU</a>, Summer 2017 </li>
 		<li> Research Assistant, UCSD Rady School of Management, Fall 2017-Spring 2018 
 	</ul>
 	</div>      
 
 
 <p style="font-size: 0.8em; padding-top: 10px; color: gray;">
-Last updated: Dec. 2023.      
+Last updated: Mar. 2024.      
 
         
       </div><!-- main -->
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
