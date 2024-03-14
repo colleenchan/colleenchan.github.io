@@ -26,3 +26,6 @@
   transform: rotate(135deg);
 }
 
+.dark-mode .chevron::before {
+  border-color: #ffffff; /* Changes the chevron border color to white in dark mode */
+}
