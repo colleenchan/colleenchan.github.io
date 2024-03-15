@@ -39,5 +39,28 @@ function toggleMode() {
   });
 }
 
+$(function() {
+  $(".abstract-link").click(function(e) {
+    e.preventDefault();
+    var $parent = $(this).parent();
+    $(this).find(".chevron").toggleClass("bottom");
+    $parent.siblings(".abstract").slideToggle(30);
+    $parent.siblings(".bibtex").slideUp(30);
+    $parent.find(".bibtex-link .chevron").addClass("bottom");
+  });
 
+  $(".bibtex-link").click(function(e) {
+    e.preventDefault();
+    var $parent = $(this).parent();
+    $(this).find(".chevron").toggleClass("bottom");
+    $parent.siblings(".bibtex").slideToggle(30);
+    $parent.siblings(".abstract").slideUp(30);
+    $parent.find(".abstract-link .chevron").addClass("bottom");
+  });
+
+  $("#publications .pdf-link a").on("mousedown", function(e) {
+    var url = $(this).attr("href");
+    ga("send", "pageview", url);
+  });
+});
 
