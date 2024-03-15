@@ -168,7 +168,6 @@ body.dark-mode {
   color: #e4e6eb /* Default light text */
 }
 
-/* Specific styling for the main content area in dark mode */
 .dark-mode #main {
   background-color: #1e1e1e; /* Dark background for the main content area */
   color: #e4e6eb; /* Ensures text within is light */
@@ -182,8 +181,9 @@ body.dark-mode {
   color: #88bbff; /* Blue for links */
 }
 
-.dark-mode .bibtex-link, .dark-mode .abstract-link {
-  background-color: #1e1e1e; /* Example: dark background for dark mode */
+.dark-mode .abstract, .dark-mode .bibtex {
+  background-color: #333333; /* dark background for dark mode */
+  color: #e4e6eb
 }
 
 /* Container for the slider */
@@ -263,3 +263,4 @@ input:checked + .slider:before {
     margin-right: 10px; /* Adds some space between the text and the slider */
     margin-bottom: 0; /* Removes default margin from paragraph to avoid extra space */
 }
+
