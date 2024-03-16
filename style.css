@@ -150,6 +150,11 @@ img {
   user-select: none;
 }
 
+.bibtex span {
+  display: block;
+  padding-left: 3ch;
+}
+
 .space {
 width: 15px;
 display: inline-block;
@@ -241,7 +246,6 @@ input:checked + .slider:before {
   transform: translateX(10px);
 }
 
-/* Rounded sliders */
 .slider.round {
   border-radius: 10px;
 }
@@ -260,7 +264,7 @@ input:checked + .slider:before {
 }
 
 .mode-toggle p {
-    margin-right: 10px; /* Adds some space between the text and the slider */
-    margin-bottom: 0; /* Removes default margin from paragraph to avoid extra space */
+    margin-right: 10px; 
+    margin-bottom: 0;
 }
 
